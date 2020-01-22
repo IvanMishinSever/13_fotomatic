@@ -113,6 +113,13 @@ header .mobile {
     line-height: 1.6;
     color: white;
   }
+  /*
+  .button span,
+.button div,
+.button i {
+  transition: all 1.2s ease-out 0.2s;
+}
+*/
 }
 
 /* Sign Up Section */
