@@ -8,9 +8,7 @@ html {
   
 }
 
-body {
 
-}
 
 .main-content {
   position: relative;
@@ -53,7 +51,7 @@ body {
   }
 }
 
-                                               /* Header */
+                                   /* Header */
 
 header {
   position: fixed;
@@ -168,7 +166,7 @@ header .desktop .button {
 }
 
 #sign-up-cta .content {
-  width: 25.625rem;
+ /* width: 25.625rem;*/
   margin-top: 2rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
@@ -176,9 +174,9 @@ header .desktop .button {
   color: white;
 }
 
-#sign-up-cta h1 {
+/*#sign-up-cta h1 {
   font-size: 3.125rem;
-}
+}*/
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
@@ -245,14 +243,16 @@ header .desktop .button {
 @media only screen and (max-width: 690px) {
   #sign-up-section {
     height: 20rem;
+    justify-content: center;
+  }
+ 
+
+  #sign-up-cta .cursive {
+    font-size: 1rem;
   }
 
-  #sign-up-cta h1 {
-    font-size: 2.25rem;
-  }
-
-  #sign-up-cta h2 {
-    font-size: 2rem;
+  #sign-up-cta .striking {
+    font-size: 1.5rem;
   }
 }
 
